@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "SFNS Display Thin";
+    src: url("assets/fonts/sfns_display_thin.ttf");
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+body {
+
+    font-family: "SFNS Display Thin", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #212121;
+    line-height: 135%;
+}
+
+.top {
+    border-radius: 25%;
+    box-shadow: 5px 5px 8px 0px #00796B;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.nonesr {
+
+    list-style-type: none;
+}
+
+.divider {
+    height: 2px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #00796B
+        /* background-color: #FF9800; */
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    gap: 30px;
+}
+
+.grid_content section {
+
+    /* padding-bottom: 10px; */
+}
+
+.lg {
+    width: 30px;
+    filter: invert(30%) sepia(2%) saturate(160%) hue-rotate(13deg) brightness(100%) contrast(94%);
+}
+
+h1 {
+    font-size: rem;
+}
+
+.grid_content h2 {
+    margin: 10px 120px;
+    padding: 3px;
+    background-color: #757575;
+    color: #fff;
+    text-align: center;
+}
+
+.grid_content2 {
+    color: #505050;
+
+}
+
+.left {
+    filter: invert(33%) sepia(48%) saturate(797%) hue-rotate(124deg) brightness(100%) contrast(101%)
+        /* filter: invert(70%) sepia(37%) saturate(5585%) hue-rotate(360deg) brightness(102%) contrast(104%) */
+}
+
+.grid_content {
+    background-color: #a8dfda;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0px 10px;
+
+}
+
+.grid_content section {
+    padding-top: 10px;
+}
+
+.grid_content h2 {
+    justify-content: center;
+}
+
+.il {
+    align-items: start;
+}
+
+.ili li {
+    display: list-item;
+}
+
+h3 {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.no_color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
